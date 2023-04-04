@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Langauge Translator</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!-- Font Awesome CDN Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <ul>
+                <li id="title"><a href="firstpage.html">LangMate</a></li>
+                <li><a href="index.html">Translator</a></li>
+                <li><a href="dictionary.html">Dictionary</a></li>
+                <li><a href="./learn.html">Learn</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div style="margin-right: 20px;" class="container">
+       
+        <div class="wrapper">
+            <div class="text-input">
+                <textarea spellcheck="false" class="from-text" placeholder="Enter text"></textarea>
+                <textarea spellcheck="false" readonly disabled class="to-text" placeholder="Translation"></textarea>
+            </div>
+            <ul class="controls">
+                <li class="row from">
+                    <div class="icons">
+                        <i id="from" class="fas fa-volume-up"></i>
+                        <i id="from" class="fas fa-copy"></i>
+                    </div>
+                    <select></select>
+                </li>
+                <li class="exchange"><i class="fas fa-exchange-alt"></i></li>
+                <li class="row to">
+                    <select></select>
+                    <div class="icons">
+                        <i id="to" class="fas fa-volume-up"></i>
+                        <i id="to" class="fas fa-copy"></i>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <button>Translate Text</button>
+    </div>
+    <div style="margin-left: 20px;" class="keyboard">
+        <div class="row">
+            <div class="key">1</div>
+            <div class="key">2</div>
+            <div class="key">3</div>
+            <div class="key">4</div>
+            <div class="key">5</div>
+            <div class="key">6</div>
+            <div class="key">7</div>
+            <div class="key">8</div>
+            <div class="key">9</div>
+            <div class="key">0</div>   
+            <div class="key delete"><i class="fa-solid fa-delete-left"></i></div>
+        </div>
+        <div class="row">
+            <div class="key">q</div>
+            <div class="key">w</div>
+            <div class="key">e</div>
+            <div class="key">r</div>
+            <div class="key">t</div>
+            <div class="key">y</div>
+            <div class="key">u</div>
+            <div class="key">i</div>
+            <div class="key">o</div>
+            <div class="key">p</div>
+        </div>
+        <div class="row">
+            <div class="key capslock">CapsLock</div>
+            <div class="key">a</div>
+            <div class="key">s</div>
+            <div class="key">d</div>
+            <div class="key">f</div>
+            <div class="key">g</div>
+            <div class="key">h</div>
+            <div class="key">j</div>
+            <div class="key">k</div>
+            <div class="key">l</div>
+            <div class="key enter">Enter</div>
+        </div>
+        <div class="row last">
+            <div class="key">z</div>
+            <div class="key">x</div>
+            <div class="key">c</div>
+            <div class="key">v</div>
+            <div class="key">b</div>
+            <div class="key">n</div>
+            <div class="key">m</div>
+        </div>
+        <div class="row">
+            <div class="key space"></div>
+        </div>
+    </div>
+    </div>
+
+    <script src="countries.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
+</html>

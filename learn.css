@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{font-family: 'Poppins', sans-serif;}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  padding-top: 80px;
+  background: linear-gradient(to bottom, rgba(6, 101, 184, 0.8), rgba(20, 20, 20, 0.8)), url('your-image-url') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a1a1a;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin: 0 15px;
+  text-transform: uppercase;
+}
+
+.navbar li a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.navbar li a:hover {
+  color: #f1c40f;
+}
+
+.flags {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.flag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+}
+
+button {
+  margin-top: 50px;
+  padding: 15px 30px;
+  border: none;
+  background-color: #f1c40f;
+  color: #333;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333;
+  color: #f1c40f;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a1a1a;
+  color: white;
+  padding: 0 50px;
+  height: 60px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: #f1c40f;
+}
